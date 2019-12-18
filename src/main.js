@@ -40,7 +40,7 @@ Vue.filter('dateFormate', function (val) {
   return `${y}-${m}-${d} ${hh}:${mm}:${ss}`
 })
 
-// 将服务部编辑器注册为全局可用的组件
+// 将富文本编辑器注册为全局可用的组件
 Vue.use(VueQuillEditor)
 Vue.config.productionTip = false
 
